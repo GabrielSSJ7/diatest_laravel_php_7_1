@@ -16,7 +16,7 @@
           <!-- banner -->
           <div class="banner banner-1">
             <img
-              src="http://server1.rgdsolution.com.br:55336/banner%20ex.jpg"
+              src="{{asset('img/tobanner1_.jpg')}}"
               alt=""
             />
             {{-- <div class="banner-caption text-center">
@@ -32,7 +32,7 @@
           <!-- banner -->
           <div class="banner banner-1">
             <img
-              src="http://server1.rgdsolution.com.br:55336/banner%20ex.jpg"
+            src="{{asset('img/tobanner2_.jpg')}}"
               alt=""
             />
             {{-- <div class="banner-caption">
@@ -48,7 +48,7 @@
 
           <!-- banner -->
           <div class="banner banner-1">
-            <img src="http://server1.rgdsolution.com.br:55336/banner%20ex.jpg" alt="" />
+            <img   src="{{asset('img/tobanner3_.JPG')}}" alt="" />
             <div class="banner-caption">
               <h1 class="white-color" style="    text-shadow: 1px 1px 1px black;">Medidores Aerosol <span>Collection</span></h1>
               <button class="primary-btn">Saiba Mais</button>

@@ -56,10 +56,95 @@ Table OF Contents
 	01 -> GENERAL
 ===========================================================*/
 
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeBody {
+    0% {
+      opacity: 0;
+    }
+
+    15% {
+        opacity:  0;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  body {
+    animation: 2s ease-out 0s 1 fadeBody;
+  }
+
+  .div-quemsomos {
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+  }
+
 
 #search-mobile {
     display: none;
     justify-content: center;
+}
+
+.my-search-btn:hover {
+    color: #005baa !important;
+    background: white !important;
+}
+
+.my-search-btn {
+    transition: 0.5s;
+
+}
+
+.icon-social-media:hover {
+    color: #005baa;
+}
+
+.fa-google-plus {
+    color: #fff;
+    transition: 0.5s
+}
+
+.fa-google-plus:hover {
+    color: #ef463f
+}
+
+.fa-linkedin {
+    color: #fff;
+    transition: 0.5s
+}
+.fa-linkedin:hover {
+    color: #0275b4
+
+}
+
+.list-links li > a{
+    font-size: 90% !important;
+    font-weight: bold
+}
+
+
+
+.temos-anos{
+    margin-top: 0px;
+    height: 400px;
+   background-image: url(http://server1.rgdsolution.com.br:55336/diatest_atual/img/diatest%20sede.jpg);
+    background-size: 100%;
+    background-position: top center;
+    background-attachment: fixed, fixed;
+    background-repeat: no-repeat;
+
 }
 
 .header {
@@ -108,9 +193,15 @@ Table OF Contents
     }
 }
 
+@media only screen and (max-width: 1100px) {
+ .li-search {
+      width: 36% !important;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .li-search {
-      width: 26%;
+      width: 36% !important;
     }
   }
 
@@ -276,6 +367,9 @@ max-height: 800px;
 text-transform: uppercase;
 margin-bottom: 10px;
 font-size: 16px;
+color: #005baa;
+
+text-decoration: underline
 }
 
 .list-links li > a {
@@ -634,7 +728,8 @@ line-height: 20px;
 
 .category-nav .category-list > li > a {
 display: block;
-  font-size: 90%;
+  font-size: 80%;
+  font-weight: bold;
   padding: 5px;
   text-transform: uppercase;
 }
@@ -791,6 +886,21 @@ display: none;
 #div-logo {
   flex: 3;
   margin: auto;
+}
+
+.temos-anos {
+    background-size: cover;
+}
+
+#texto-temos-anos {
+        /* top: 0; */
+        bottom: 80px;
+        left: 20px !important;
+        right: 0;
+}
+
+#texto-quem-somos {
+    padding: 0 !important;
 }
 
 #div-contato {

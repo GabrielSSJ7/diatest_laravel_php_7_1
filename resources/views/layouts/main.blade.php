@@ -29,6 +29,7 @@
 
     <!-- Custom stlylesheet -->
     <link type="text/css" rel="stylesheet" href="{{ asset('css/style.css') }}" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -50,17 +51,20 @@
           </div>
 
         <!-- footer social -->
-            <ul class="footer-social">
-                <li>
-                    <a href="https://plus.google.com/110608236717101783102/about"><i style="-webkit-filter: invert(100%)" class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/company/diatest-do-brasil"><i style="-webkit-filter: invert(100%)" class="fa fa-linkedin"></i></a>
-                </li>
-            </ul>
+        <ul class="footer-social">
+
+            <li>
+                <a href="https://plus.google.com/110608236717101783102/about">
+                    <i class="fab fa-google-plus fa-2x"></i>
+                </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/diatest-do-brasil"><i class="fab fa-linkedin fa-2x"></i></a>
+            </li>
+          </ul>
         <!-- /footer social -->
 
-          
+
 		<div id="div-div-contato">
               <div id="div-contato">
 
@@ -122,9 +126,10 @@
           </div>
 
           <div class="header-search" id="search-mobile">
-            <form action="{{ url('produtos/search') }}" method="POST">
+            <form action="{{ url('produtos/search') }}" method="POST" style="width: 90%">
                 {{ csrf_field() }}
                 <input
+                    style="border-radius: 40px;outline: none;"
                     id="key"
                     name="key"
                     class="input search-input"
@@ -132,7 +137,9 @@
                     placeholder="Pesquisar"
                 />
 
-            <button type="submit"  class="search-btn"><i class="fa fa-search"></i></button>
+            <button type="submit" style="color: white;background: #005baa;border-radius: 40px;margin-right: 5px;"  class="search-btn my-search-btn">
+                <i class="fa fa-search"></i>
+            </button>
             </form>
         </div>
           <li style="list-style: none; " class="header-account dropdown default-dropdown">
@@ -144,7 +151,7 @@
             <!-- category nav -->
             <div class="category-nav ">
               <span class="category-header category-nav-toggle" style="cursor: pointer"
-                >Categories <i class="fa fa-list" style="cursor:pointer"
+                >Categorias <i class="fa fa-list" style="cursor:pointer"
                 ></i
               ></span>
             @if (!empty($categories))
@@ -191,7 +198,7 @@
             <div class="menu-nav">
               <span class="menu-header">Menu <i class="fa fa-bars"></i></span>
 
-              <ul class="menu-list">
+              <ul class="menu-list" style="display:flex">
 
                   <li><a href="{{ url('/') }}">Home</a></li>
                   <li><a href="{{ url('/quem-somos') }}">Quem Somos</a></li>
@@ -211,11 +218,12 @@
                   </ul>
                 </li>
                  <!-- Search -->
-                <li class="li-search">
+                <li class="li-search" style="flex:1">
                         <div class="header-search" >
                                 <form action="{{ url('produtos/search') }}" method="POST">
                                     {{ csrf_field() }}
                                     <input
+                                    style="border-radius: 40px;outline: none;"
                                         id="key"
                                         name="key"
                                         class="input search-input"
@@ -223,7 +231,10 @@
                                         placeholder="Pesquisar"
                                     />
 
-                                   <button type="submit"  class="search-btn"><i class="fa fa-search"></i></button>
+                                   <button type="submit" style="color: white;background: #005baa;border-radius: 40px;margin-right: 5px;"
+                                   class="search-btn my-search-btn">
+                                    <i class="fa fa-search"></i>
+                                   </button>
                                 </form>
                             </div>
               <!-- /Search -->
@@ -260,7 +271,7 @@
               <!-- footer logo -->
               <div class="footer-logo">
                 <a class="logo" href="./produtos.html?cat=10">
-                  <img src="../img/logo_t.png" alt="" />
+                  <img src="{{ asset('img/logo_t.png')}}" alt="" />
                 </a>
               </div>
               <!-- /footer logo -->
@@ -271,15 +282,20 @@
               </p> --}}
 
               <!-- footer social -->
-              <ul class="footer-social">
+              <p style="color: white; text-align: center; font-weight: bold">SIGA-NOS NAS REDES SOCIAIS</p>
+              <div style="text-align: center">
+              <ul class="footer-social" >
 
                 <li>
-                  <a href="https://plus.google.com/110608236717101783102/about"><i style="-webkit-filter: invert(100%)" class="fa fa-google-plus"></i></a>
+                    <a href="https://plus.google.com/110608236717101783102/about">
+                        <i class="fab fa-google-plus fa-2x"></i>
+                    </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/diatest-do-brasil"><i style="-webkit-filter: invert(100%)" class="fa fa-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/company/diatest-do-brasil"><i class="fab fa-linkedin fa-2x"></i></a>
                 </li>
               </ul>
+            </div>
               <!-- /footer social -->
             </div>
           </div>
@@ -368,7 +384,7 @@
     <script src="{{ asset('js/wp.js')}}"></script>
     <style>
     .sticky {
-        
+
         top: 0;
         position: fixed;
         z-index: 99999 !important;
@@ -395,7 +411,7 @@
  $(document).ready(function(){
 
             $("div.dropdown-backdrop").remove();
-     
+
 
 
   $(".produto-imgs").on('click', function(){
