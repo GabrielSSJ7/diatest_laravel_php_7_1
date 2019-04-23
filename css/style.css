@@ -208,6 +208,11 @@ padding: 0px;
 border: none;
 }
 
+.my-search-btn:hover {
+    color: #005baa !important;
+    background: white !important;
+}
+
 .main-btn {
 color: #30323a;
 background-color: #fff;

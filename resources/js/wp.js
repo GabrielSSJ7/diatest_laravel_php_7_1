@@ -1,9 +1,9 @@
 $(document).ready(function() {
-alert("teste");
+
   const URL_ = 'http://localhost/Jobs/diatest/app/';
 
   $(".li-fac").on('click', function(e){
-    
+
     localStorage.setItem('fac', $(this).children("a").text());
   });
 
@@ -12,7 +12,7 @@ alert("teste");
     window.location.href = `./produtos.html?function=searchProducts&key=${search}`;
     e.preventDefault();
     return false;
-    
+
     // $.ajax({
     //   url: `${URL}queries.php?function=searchProducts&key=${search}`,
     //   method: 'GET',
@@ -43,7 +43,7 @@ alert("teste");
 
 
   // const path = location.pathname;
-  
+
   // switch(path.replace('Jobs/diatest/', '')) {
   //   case '/':
   //     setCategories('');
@@ -58,7 +58,7 @@ alert("teste");
   //   case '/produtos.html':
   //   const url = new URL(location.href);
   //   const fac = localStorage.getItem('fac');
-  //   const _function = url.searchParams.get("function");    
+  //   const _function = url.searchParams.get("function");
   //   const key = url.searchParams.get("key");
   //   if(_function == 'fetchProductsByFactory') {
   //     $("#title-produtos").html(`<h2 class='tittle' style="text-transform: uppercase">${key}</h2>`)
@@ -82,8 +82,8 @@ alert("teste");
   }
 
 
-  
-  
+
+
   function setCategories(params) {
     $.ajax({
       url: `${URL_}queries.php${params}`,
@@ -94,7 +94,7 @@ alert("teste");
       error: function(erro) {
         console.log(erro);
       }
-    });     
+    });
   }
 
 
