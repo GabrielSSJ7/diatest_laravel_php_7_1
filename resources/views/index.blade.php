@@ -48,10 +48,12 @@
 
           <!-- banner -->
           <div class="banner banner-1">
-            <img   src="{{asset('img/tobanner3_.jpg')}}" alt="" />
-            <div class="banner-caption">
-              <h1 class="white-color" style="    text-shadow: 1px 1px 1px black;">Medidores Aerosol <span>Collection</span></h1>
-              <button class="primary-btn">Saiba Mais</button>
+            <img   src="{{asset('img/tobanner3_.JPG')}}" alt="" />
+            <div class="banner-caption" >
+              <h1 class="white-color" style="    text-shadow: 1px 1px 1px black;">Ogivas Diatest <span></span></h1>
+                <div style="padding: 15px; margin-top: -10px">
+                    <button class="primary-btn">Saiba Mais</button>
+                </div>
             </div>
           </div>
           <!-- /banner -->

@@ -33,11 +33,13 @@ $(document).ready(function() {
 
     //$("#produto-img").prop('src', imgSrc);
 
+
     const image = $("#produto-img")
 
     image.fadeOut('fast', function () {
 	//image.prop('src', imgSrc);
         image.css("background-image", `url(${imgSrc})`)
+        image.prop('src', `${imgSrc}`)
         image.fadeIn('slow');
     });
   });

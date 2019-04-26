@@ -86,7 +86,7 @@
 
       <div class="temos-anos" style="position: relative; color: white;">
         <div id="texto-temos-anos" style="position: absolute;/* top: 0; */bottom: 80px;left: 100px;right: 0;">
-            <h1 style="color: white">Somos uma multinacional</h1> <h1 style="color: white">com mais de 70 anos de mercado.</h1>
+            <h1 style="color: white; text-shadow: 3px 3px #000;">Somos uma multinacional</h1> <h1 style="color: white;text-shadow: 3px 3px #000;">com mais de 70 anos de mercado.</h1>
         </div>
       </div>
 

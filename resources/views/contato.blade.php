@@ -143,9 +143,7 @@
           </div>
 
           <div class="col-md-6" style="border-left: 1px solid lightgrey; height: 452px;">
-              <h3>Endereço: </h3>
-              <p>Diatest do Brasil Produtos de Medição Ltda</p>
-              <p>Rua Ulisses Cruz, 1052 • 3 Andar • Cj. 6 • Tatuapé • São Paulo • (11) 2091-8811</p>
+
 
               <h3>E-Mail | Telefone</h3>
 

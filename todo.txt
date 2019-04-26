@@ -1,0 +1,7 @@
+TO DO:
+    - gostaria que aumentasse só um pouco o “Bem vindo” **FEITO**
+    - No banner de Ogivas tirar a frase “medidores especiais collection”, não são medidores, então queremos que esteja escrito apenas “ Ogivas diatest”, pode ter um botão cta (azul) escrito “saiba mais” em baixo da frase. Vocês podem ver se a frase fica melhor centralizada ***FEITO***
+    - Na imagem “Quem somos”, a frase “somos uma multinacional...” não está muito legível *** FEITO ***
+    - No contato, é muito importante tirar o endereço. Não queremos o endereço em nenhum lugar do nosso site *** FEITO ***
+    - Tirar o google + também, pois não tem mais. No lugar pode colocar o ícone do instagram e do Blogger. Nosso user é: @diatestdobrasil ***FEITO***
+    - Nas imagens dos produtos ( conforme o print que estou enviando) gostaríamos que as imagens, nome, título etc ocupassem maior espaço na tela, pois está muito pequeno e a tela muito vazia. Também gostaríamos que ao passar o mouse na imagem ela tivesse zoom, assim como comentei com vocês quando decidimos repaginar o site.

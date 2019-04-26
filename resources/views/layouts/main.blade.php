@@ -47,15 +47,15 @@
         <div class="container"  >
 
           <div >
-            <span style="color:white">Bem-vindo ao site Diatest</span>
+            <span style="color:white; font-size: 21px;">Bem-vindo ao site Diatest</span>
           </div>
 
         <!-- footer social -->
         <ul class="footer-social">
 
             <li>
-                <a href="https://plus.google.com/110608236717101783102/about">
-                    <i class="fab fa-google-plus fa-2x"></i>
+                <a href="https://www.instagram.com/diatestdobrasil/">
+                    <i class="fab fa-instagram fa-2x" style="color: white"></i>
                 </a>
             </li>
             <li>
@@ -126,7 +126,7 @@
           </div>
 
           <div class="header-search" id="search-mobile">
-            <form action="{{ url('produtos/search') }}" method="POST">
+            <form action="{{ url('produtos/search') }}" method="POST" style="width: 90%">
                 {{ csrf_field() }}
                 <input
                     style="border-radius: 40px;outline: none;"
@@ -198,7 +198,7 @@
             <div class="menu-nav">
               <span class="menu-header">Menu <i class="fa fa-bars"></i></span>
 
-              <ul class="menu-list">
+              <ul class="menu-list" style="display:flex">
 
                   <li><a href="{{ url('/') }}">Home</a></li>
                   <li><a href="{{ url('/quem-somos') }}">Quem Somos</a></li>
@@ -218,7 +218,7 @@
                   </ul>
                 </li>
                  <!-- Search -->
-                <li class="li-search">
+                <li class="li-search" style="flex:1">
                         <div class="header-search" >
                                 <form action="{{ url('produtos/search') }}" method="POST">
                                     {{ csrf_field() }}
@@ -271,7 +271,7 @@
               <!-- footer logo -->
               <div class="footer-logo">
                 <a class="logo" href="./produtos.html?cat=10">
-                  <img src="../img/logo_t.png" alt="" />
+                  <img src="{{ asset('img/logo_t.png')}}" alt="" />
                 </a>
               </div>
               <!-- /footer logo -->
@@ -287,8 +287,8 @@
               <ul class="footer-social" >
 
                 <li>
-                    <a href="https://plus.google.com/110608236717101783102/about">
-                        <i class="fab fa-google-plus fa-2x"></i>
+                    <a href="https://www.instagram.com/diatestdobrasil/">
+                        <i class="fab fa-instagram fa-2x" style="color: white"></i>
                     </a>
                 </li>
                 <li>
