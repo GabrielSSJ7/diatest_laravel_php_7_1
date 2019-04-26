@@ -56,6 +56,10 @@ Table OF Contents
 	01 -> GENERAL
 ===========================================================*/
 
+.teste-te {
+    background-color: "black";
+}
+
 .zoom {
 	overflow: hidden;
 }
@@ -194,6 +198,22 @@ Table OF Contents
     width: 45%;
     margin-top: 5px;
     float: right;
+}
+
+.li-fac {
+    transition: 0.5s
+}
+
+.li-fac a {
+    transition: 0.5s;
+}
+
+.li-fac a:hover {
+    background-color: grey !important;
+}
+
+.li-fac a:hover {
+    color: white !important;
 }
 
 .header-search {

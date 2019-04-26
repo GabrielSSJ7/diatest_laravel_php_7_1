@@ -211,7 +211,7 @@
                     aria-expanded="true"
                     >Marcas <i class="fa fa-caret-down"></i
                   ></a>
-                  <ul class="custom-menu">
+                  <ul class="custom-menu fabricantes-list">
                     @foreach ($factories as $factory)
                       <li class="li-fac"><a href="{{ url('produtos/fabricante', ['slug'=>$factory->slug]) }}">{{$factory->name}}</a></li>
                     @endforeach
