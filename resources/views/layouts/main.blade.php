@@ -54,12 +54,12 @@
         <ul class="footer-social">
 
             <li>
-                <a href="https://www.instagram.com/diatestdobrasil/">
+                <a href="https://www.instagram.com/diatestdobrasil/" target="_blank">
                     <i class="fab fa-instagram fa-2x" style="color: white"></i>
                 </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/diatest-do-brasil"><i class="fab fa-linkedin fa-2x"></i></a>
+              <a href="https://www.linkedin.com/company/diatest-do-brasil" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
             </li>
           </ul>
         <!-- /footer social -->
@@ -203,7 +203,7 @@
                   <li><a href="{{ url('/') }}">Home</a></li>
                   <li><a href="{{ url('/quem-somos') }}">Quem Somos</a></li>
                   <li><a href="{{ url('/contato') }}">Contato</a></li>
-                <li><a href="http://blog.diatest.com.br/">Blog</a></li>
+                <li><a target="_blank" href="http://blog.diatest.com.br/">Blog</a></li>
                 <li class="dropdown default-dropdown">
                   <a
                     class="dropdown-toggle"
@@ -287,12 +287,12 @@
               <ul class="footer-social" >
 
                 <li>
-                    <a href="https://www.instagram.com/diatestdobrasil/">
+                    <a href="https://www.instagram.com/diatestdobrasil/" target="_blank">
                         <i class="fab fa-instagram fa-2x" style="color: white"></i>
                     </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/diatest-do-brasil"><i class="fab fa-linkedin fa-2x"></i></a>
+                  <a target="_blank" href="https://www.linkedin.com/company/diatest-do-brasil"><i class="fab fa-linkedin fa-2x"></i></a>
                 </li>
               </ul>
             </div>
@@ -321,19 +321,19 @@
           <!-- footer widget -->
           <div class="col-md-5 col-sm-6 col-xs-6" style="text-align: center">
             <div class="footer">
-              <h3 class="footer-header" style="color:white">Menu</h3>
+              <h3 class="footer-header" style="color:white; padding-top: 25px">Menu</h3>
               <ul class="list-links" >
                 <li><a style="color: white" href="{{ url('/') }}">Home</a></li>
                 <li><a style="color: white" href="{{ url('quem-somos') }}">Quem Somos</a></li>
                 <li><a style="color: white" href="{{ url('contato') }}">Contato</a></li>
-                <li><a style="color: white" href="http://blog.diatest.com.br">Blog</a></li>
+                <li><a target="_blank" style="color: white" href="http://blog.diatest.com.br">Blog</a></li>
               </ul>
             </div>
           </div>
           <!-- /footer widget -->
 
           <!-- footer subscribe -->
-          <div class="col-md-3 col-sm-6 col-xs-6">
+          <div style="    padding-top: 25px;" class="col-md-3 col-sm-6 col-xs-6">
             <div class="footer">
               <h3 class="footer-header" style="color: white">Permaneça Conectado</h3>
               <p style="color:white">

@@ -1,6 +1,11 @@
 $(document).ready(function() {
     const URL_ = "http://localhost/Jobs/diatest/app/";
 
+$(".banner").on("click", function(){ 
+                alert("teste")
+        })
+$(".banner").css("cursor","pointer");
+
     $(".li-fac").on("click", function(e) {
         localStorage.setItem(
             "fac",

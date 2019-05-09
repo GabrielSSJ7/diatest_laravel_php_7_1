@@ -142,13 +142,14 @@
             </form>
           </div>
 
-          <div class="col-md-6" style="border-left: 1px solid lightgrey; height: 452px;">
+          <div id="div-contato-logo" class="col-md-6 div-contato" style="border-left: 1px solid lightgrey; height: 452px;  padding-top: 25px">
 
 
               <h3>E-Mail | Telefone</h3>
 
               <p>info@diatest.com.br</p>
                       <p>(11) 2091-8811</p>
+<img src="{{ asset('/img/logo_t.png')}}" alt="" />
           </div>
 
           <!-- /home wrap -->

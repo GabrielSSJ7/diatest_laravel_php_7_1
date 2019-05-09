@@ -15,16 +15,18 @@
         <div id="home-slick">
           <!-- banner -->
           <div class="banner banner-1">
+	   
             <img
               src="{{asset('img/tobanner1_.jpg')}}"
               alt=""
             />
+	   
             {{-- <div class="banner-caption text-center">
               <h1 style="color: #005baa; text-shadow: 1px 1px white">
                 Indústria
               </h1>
               <h3 class="white-color font-weak">Você encontra aqui</h3>
-              <button class="primary-btn">Saiba Mais</button>
+             <!-- <button class="primary-btn">Saiba Mais</button> -->
             </div> --}}
           </div>
           <!-- /banner -->
@@ -52,7 +54,7 @@
             <div class="banner-caption" >
               <h1 class="white-color" style="    text-shadow: 1px 1px 1px black;">Ogivas Diatest <span></span></h1>
                 <div style="padding: 15px; margin-top: -10px">
-                    <button class="primary-btn">Saiba Mais</button>
+                   <!-- <button class="primary-btn">Saiba Mais</button> -->
                 </div>
             </div>
           </div>
